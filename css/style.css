@@ -1,7 +1,9 @@
-body {
-	background-color: LightGray;
+.top-navigation {
+	background-color: #fff;
 }
 
-div {
-	border: 1px solid Chocolate;
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
 }
