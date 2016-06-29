@@ -76,3 +76,21 @@ body {
 	margin-top: 0.75rem;
 	font-size: 1.563rem;
 }
+
+button {
+	background-color: #F15A29;
+	border-color: #F15A29;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	color: white;
+	display: block;
+	margin: 0 auto;
+	font-size: 1.125rem;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #f0470f;
+}
