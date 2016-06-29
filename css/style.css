@@ -2,6 +2,10 @@ html {
 	box-sizing: border-box;
 }
 
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
 *, *:before, *:after {
 	box-sizing: inherit;
 }
@@ -20,11 +24,15 @@ html {
 	margin-top: 20px;
 }
 
-.top-navigation > .content {
+.content {
 	padding: 0px 15px;
 	width: 970px;
-	height: 70px;
 	margin: 0 auto;
+}
+
+.top-navigation > .content {
+	padding: 0px 15px;
+	height: 70px;
 }
 
 .links > li {
@@ -43,7 +51,28 @@ html {
 }
 
 .section1 {
-	background-image: url();
+	background-image: url('../images/first-background.jpg');
+	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 45.938rem;
+	overflow: auto;
+}
+
+.section1 h1,
+.section1 h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+
+.section1 h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+	margin-bottom: 0;
+}
+
+.section1 h3 {
+	margin-top: 0.75rem;
+	font-size: 1.563rem;
 }
