@@ -137,3 +137,40 @@ button:hover {
 	font-size: 110%;
 	margin-right: -4px;
 }
+
+.footer {
+	background-color: #fff;
+	text-align: center;
+	padding-bottom: 9.375rem;
+	overflow: auto;
+}
+
+.footer .icons > li {
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	list-style: none;
+	display: inline-block;
+	margin: 1rem 0;
+	padding: 0.625rem 0;
+	border: 1px solid;
+	text-align: center;
+
+}
+
+.footer .copy {
+	font-size: 0.9rem;
+	font-weight: 300;
+}
+
+.footer .facebook {
+	color: #4C66A4;
+}
+
+.footer .twitter {
+	color: #55acee;
+}
+
+.footer .instagram {
+	color: #3F729B;
+}
