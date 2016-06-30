@@ -94,3 +94,10 @@ button:hover {
 	cursor: pointer;
 	background-color: #f0470f;
 }
+
+.section2 {
+	background-color: #fff;
+	background-size: cover;
+	overflow: auto;
+	padding-bottom: 5rem;
+}
