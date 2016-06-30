@@ -10,6 +10,13 @@ body {
 	box-sizing: inherit;
 }
 
+.top-navigation {
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+
 .top-navigation .links  {
 	background-color: #fff;
 	float: right;
@@ -98,6 +105,35 @@ button:hover {
 .section2 {
 	background-color: #fff;
 	background-size: cover;
-	overflow: auto;
+	overflow: hidden;
 	padding-bottom: 5rem;
+
+}
+
+.section2 h2 {
+	font-size: 2.75rem;
+	margin: 1.6rem 3.125rem;
+	font-weight: 200;
+	
+}
+
+.section2 h3 {
+	font-weight: inherit;
+}
+
+.section2 .content {
+	margin-top: 7.5em;
+}
+
+.section2 div {
+	text-align: center;
+	vertical-align: baseline;
+}
+
+.devices li {
+	width: 300px;
+	display: inline-block;
+	box-sizing: border-box;
+	font-size: 110%;
+	margin-right: -4px;
 }
